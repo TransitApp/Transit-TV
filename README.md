@@ -24,9 +24,11 @@ pnpm start
 
 Then follow the instructions and open http://localhost:8080
 
-3) Deploy somewhere! 
+3) Deploy somewhere!
 
-You should be ready to deploy somewhere if you want to use it for a longer amount of time. 
+You should be ready to deploy somewhere if you want to use it for a longer amount of time. See our [deployment guide](./DEPLOYING.md) for an example.
+
+## [FAQ](./FAQ.md)
 
 ## Contribute
 
