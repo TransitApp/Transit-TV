@@ -57,7 +57,7 @@
     "time-grunt": "~0.3.2"
   },
   "scripts": {
-    "start": "dotenv -e .env -o -- node server/app.js",
+    "start": "dotenv -e .env -o -- node dist/server/app.js",
     "build": "bower install && grunt build"
   },
   "private": true
