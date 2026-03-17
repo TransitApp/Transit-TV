@@ -23,8 +23,8 @@ Transit TV is a standard Node.js app and can be deployed on any hosting provider
 
 5. **Deploy**. Railway will automatically run `pnpm i`, `pnpm build`, and `pnpm start`. Wait for the build to complete.
 
-6. **Generate a public URL**. Go to **Settings** → **Networking** → **Generate Domain**. This gives you a public `*.up.railway.app` URL.
+6. **Generate a public URL**. Go to **Settings** → **Networking** → **Generate Domain**. Set the port to **8080**. This gives you a public `*.up.railway.app` URL.
 
-7. **Open the URL on your TV's browser** and set your desired location coordinates.
+7. **Open the URL on your TV's browser** and set your location. Click the settings icon and enter your coordinates as `latitude, longitude` (e.g. `45.5017, -73.5673`). An easy way to get coordinates is to right-click a location in Google Maps — the latitude and longitude will appear at the top of the context menu.
 
 That's it — your Transit TV is live and will stay running 24/7.
