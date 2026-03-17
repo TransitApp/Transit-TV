@@ -357,8 +357,6 @@ module.exports = function (grunt) {
         }
       },
       dist: [
-        'imagemin',
-        'svgmin'
       ]
     },
 
