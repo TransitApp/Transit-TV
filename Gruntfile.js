@@ -176,7 +176,9 @@ module.exports = function (grunt) {
             // opens browser on initial server start
             nodemon.on('config:update', function () {
               setTimeout(function () {
-                require('open')('http://localhost:8080/debug?port=5858');
+                import('open').then(function (open) {
+                  open.default('http://localhost:8080/debug?port=5858');
+                });
               }, 500);
             });
           }
